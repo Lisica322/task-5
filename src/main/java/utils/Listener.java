@@ -5,14 +5,14 @@ import io.cucumber.plugin.event.EventPublisher;
 import io.cucumber.plugin.event.Status;
 import io.cucumber.plugin.event.TestStepFinished;
 import io.qameta.allure.Allure;
-import io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm;
+import io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm;
 import managers.DriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.io.ByteArrayInputStream;
 
-public class Listener extends AllureCucumber5Jvm {
+public class Listener extends AllureCucumber6Jvm {
 
     @Override
     public void setEventPublisher(EventPublisher publisher) {

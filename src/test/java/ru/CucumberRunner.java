@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
         plugin = {"utils.Listener"},
         glue = {"steps"},
         features = {"src/test/resources/"},
-        tags = {"@firstTest"}
+        tags = "@firstTest"
 )
 public class CucumberRunner {}
